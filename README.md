@@ -1,5 +1,5 @@
 # MedMind
-
+[live github page](https://katherinj.github.io/MedMind/medmind-ui/)
 ## Overview
 
 A website created to provide an easy, user-friendly app to students (pharm, med, nurses, pharm tech) to study simple and basic pharmacology concepts
