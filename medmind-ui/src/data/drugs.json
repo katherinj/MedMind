@@ -1,0 +1,672 @@
+[
+  {
+    "id": "lisinopril",
+    "generic": "lisinopril",
+    "brand": ["Prinivil", "Zestril"],
+    "class": "ACE Inhibitor",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hypertension, heart failure, post-MI, diabetic nephropathy",
+    "mechanism": "Inhibits ACE, reducing conversion of angiotensin I to angiotensin II, lowering blood pressure",
+    "sideEffects": [
+      "dry cough",
+      "hyperkalemia",
+      "hypotension",
+      "angioedema",
+      "dizziness"
+    ],
+    "interactions": {
+      "drugs": [
+        "NSAIDs",
+        "potassium-sparing diuretics",
+        "lithium",
+        "aliskiren"
+      ],
+      "food": ["high-potassium foods (bananas, oranges, salt substitutes)"],
+      "conditions": [
+        "renal artery stenosis",
+        "pregnancy",
+        "history of angioedema"
+      ]
+    },
+    "storage": "Store at room temperature, away from moisture",
+    "forms": ["tablet"]
+  },
+  {
+    "id": "atorvastatin",
+    "generic": "atorvastatin",
+    "brand": ["Lipitor"],
+    "class": "HMG-CoA Reductase Inhibitor (Statin)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hyperlipidemia, prevention of cardiovascular events",
+    "mechanism": "Inhibits HMG-CoA reductase, reducing cholesterol synthesis in the liver",
+    "sideEffects": [
+      "myopathy",
+      "rhabdomyolysis",
+      "elevated liver enzymes",
+      "headache",
+      "GI upset"
+    ],
+    "interactions": {
+      "drugs": [
+        "cyclosporine",
+        "gemfibrozil",
+        "niacin",
+        "azole antifungals",
+        "macrolide antibiotics"
+      ],
+      "food": ["grapefruit juice (increases drug levels)"],
+      "conditions": ["active liver disease", "pregnancy", "breastfeeding"]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet"]
+  },
+  {
+    "id": "metformin",
+    "generic": "metformin",
+    "brand": ["Glucophage", "Glumetza", "Fortamet"],
+    "class": "Biguanide (Antidiabetic)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Type 2 diabetes mellitus",
+    "mechanism": "Decreases hepatic glucose production, increases insulin sensitivity, reduces GI glucose absorption",
+    "sideEffects": [
+      "GI upset",
+      "nausea",
+      "diarrhea",
+      "lactic acidosis (rare)",
+      "vitamin B12 deficiency"
+    ],
+    "interactions": {
+      "drugs": ["contrast dye (hold before imaging)", "alcohol", "cimetidine"],
+      "food": ["alcohol (increases lactic acidosis risk)"],
+      "conditions": [
+        "renal impairment (CrCl <30)",
+        "hepatic impairment",
+        "heart failure",
+        "dehydration"
+      ]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet", "extended-release tablet", "oral solution"]
+  },
+  {
+    "id": "amlodipine",
+    "generic": "amlodipine",
+    "brand": ["Norvasc"],
+    "class": "Calcium Channel Blocker (Dihydropyridine)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hypertension, chronic stable angina, vasospastic angina",
+    "mechanism": "Blocks L-type calcium channels in vascular smooth muscle, causing vasodilation",
+    "sideEffects": [
+      "peripheral edema",
+      "flushing",
+      "headache",
+      "dizziness",
+      "palpitations"
+    ],
+    "interactions": {
+      "drugs": [
+        "cyclosporine",
+        "simvastatin (limit simvastatin dose)",
+        "CYP3A4 inhibitors"
+      ],
+      "food": ["grapefruit juice (minor interaction)"],
+      "conditions": ["severe aortic stenosis", "cardiogenic shock"]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet"]
+  },
+  {
+    "id": "metoprolol",
+    "generic": "metoprolol",
+    "brand": ["Lopressor", "Toprol-XL"],
+    "class": "Beta-1 Selective Blocker (Beta Blocker)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hypertension, angina, heart failure, MI, atrial fibrillation",
+    "mechanism": "Selectively blocks beta-1 adrenergic receptors, reducing heart rate and blood pressure",
+    "sideEffects": [
+      "bradycardia",
+      "fatigue",
+      "dizziness",
+      "bronchospasm",
+      "cold extremities",
+      "depression"
+    ],
+    "interactions": {
+      "drugs": ["verapamil", "diltiazem", "clonidine", "digoxin", "MAOIs"],
+      "food": ["food increases absorption of tartrate formulation"],
+      "conditions": [
+        "asthma/COPD (caution)",
+        "heart block",
+        "decompensated heart failure",
+        "abrupt discontinuation risk"
+      ]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet", "extended-release tablet", "injection"]
+  },
+  {
+    "id": "omeprazole",
+    "generic": "omeprazole",
+    "brand": ["Prilosec", "Zegerid"],
+    "class": "Proton Pump Inhibitor (PPI)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "GERD, peptic ulcer disease, H. pylori eradication, Zollinger-Ellison syndrome",
+    "mechanism": "Irreversibly inhibits H+/K+ ATPase (proton pump) in gastric parietal cells",
+    "sideEffects": [
+      "headache",
+      "nausea",
+      "diarrhea",
+      "hypomagnesemia (long-term)",
+      "C. diff risk",
+      "bone fracture risk"
+    ],
+    "interactions": {
+      "drugs": [
+        "clopidogrel (reduces efficacy)",
+        "methotrexate",
+        "warfarin",
+        "digoxin"
+      ],
+      "food": ["take 30-60 min before meals for best effect"],
+      "conditions": ["long-term use increases fracture and infection risk"]
+    },
+    "storage": "Store at room temperature, keep in original container",
+    "forms": [
+      "capsule",
+      "delayed-release capsule",
+      "tablet",
+      "powder for oral suspension"
+    ]
+  },
+  {
+    "id": "sertraline",
+    "generic": "sertraline",
+    "brand": ["Zoloft"],
+    "class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Depression, OCD, panic disorder, PTSD, social anxiety disorder, premenstrual dysphoric disorder",
+    "mechanism": "Inhibits presynaptic serotonin reuptake, increasing serotonin in the synapse",
+    "sideEffects": [
+      "nausea",
+      "insomnia",
+      "sexual dysfunction",
+      "diarrhea",
+      "sweating",
+      "serotonin syndrome (rare)"
+    ],
+    "interactions": {
+      "drugs": [
+        "MAOIs (contraindicated, 14-day washout)",
+        "triptans",
+        "linezolid",
+        "tramadol",
+        "warfarin"
+      ],
+      "food": ["alcohol (avoid)"],
+      "conditions": [
+        "bipolar disorder (may trigger mania)",
+        "bleeding disorders",
+        "pregnancy (third trimester risk)"
+      ]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet", "oral concentrate"]
+  },
+  {
+    "id": "alprazolam",
+    "generic": "alprazolam",
+    "brand": ["Xanax", "Xanax XR"],
+    "class": "Benzodiazepine (Anxiolytic)",
+    "controlled": true,
+    "schedule": "CIV",
+    "indication": "Generalized anxiety disorder, panic disorder",
+    "mechanism": "Enhances effect of GABA at GABA-A receptor, increasing chloride ion conductance",
+    "sideEffects": [
+      "sedation",
+      "cognitive impairment",
+      "physical dependence",
+      "withdrawal seizures",
+      "respiratory depression"
+    ],
+    "interactions": {
+      "drugs": [
+        "opioids (CNS depression - Black Box Warning)",
+        "alcohol",
+        "other CNS depressants",
+        "azole antifungals",
+        "CYP3A4 inhibitors"
+      ],
+      "food": ["grapefruit juice (increases levels)", "alcohol (avoid)"],
+      "conditions": [
+        "sleep apnea",
+        "respiratory insufficiency",
+        "myasthenia gravis",
+        "pregnancy"
+      ]
+    },
+    "storage": "Store at room temperature, in a safe/secure location",
+    "forms": [
+      "tablet",
+      "extended-release tablet",
+      "oral solution",
+      "orally disintegrating tablet"
+    ]
+  },
+  {
+    "id": "amoxicillin",
+    "generic": "amoxicillin",
+    "brand": ["Amoxil", "Moxatag"],
+    "class": "Aminopenicillin (Beta-Lactam Antibiotic)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Bacterial infections: ear, nose, throat, respiratory, urinary tract, H. pylori (with other agents)",
+    "mechanism": "Inhibits bacterial cell wall synthesis by binding penicillin-binding proteins",
+    "sideEffects": [
+      "diarrhea",
+      "nausea",
+      "rash",
+      "hypersensitivity/anaphylaxis",
+      "C. diff (rare)"
+    ],
+    "interactions": {
+      "drugs": [
+        "warfarin (increased bleeding risk)",
+        "methotrexate",
+        "oral contraceptives (reduced efficacy - debated)"
+      ],
+      "food": ["can be taken with or without food"],
+      "conditions": [
+        "penicillin allergy (cross-reactivity with cephalosporins)",
+        "mononucleosis (rash risk)",
+        "renal impairment (dose adjust)"
+      ]
+    },
+    "storage": "Capsules/tablets: room temperature. Oral suspension: refrigerate, discard after 14 days",
+    "forms": [
+      "capsule",
+      "tablet",
+      "chewable tablet",
+      "powder for oral suspension"
+    ]
+  },
+  {
+    "id": "hydrochlorothiazide",
+    "generic": "hydrochlorothiazide",
+    "brand": ["Microzide"],
+    "class": "Thiazide Diuretic",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hypertension, edema (heart failure, renal disease, hepatic cirrhosis)",
+    "mechanism": "Inhibits sodium-chloride reabsorption in the distal convoluted tubule",
+    "sideEffects": [
+      "hypokalemia",
+      "hyponatremia",
+      "hyperuricemia",
+      "hyperglycemia",
+      "hyperlipidemia",
+      "photosensitivity"
+    ],
+    "interactions": {
+      "drugs": [
+        "lithium (increased toxicity)",
+        "NSAIDs (reduced efficacy)",
+        "digoxin (hypokalemia increases toxicity)",
+        "antidiabetics"
+      ],
+      "food": ["take with food to reduce GI upset"],
+      "conditions": [
+        "gout (may worsen)",
+        "diabetes (may worsen control)",
+        "lupus",
+        "sulfa allergy"
+      ]
+    },
+    "storage": "Store at room temperature, protect from light",
+    "forms": ["tablet", "capsule"]
+  },
+  {
+    "id": "gabapentin",
+    "generic": "gabapentin",
+    "brand": ["Neurontin", "Gralise", "Horizant"],
+    "class": "Anticonvulsant / Neuropathic Pain Agent",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Partial seizures, postherpetic neuralgia, restless leg syndrome (Horizant)",
+    "mechanism": "Binds to alpha-2-delta subunit of voltage-gated calcium channels, reducing neurotransmitter release",
+    "sideEffects": [
+      "somnolence",
+      "dizziness",
+      "ataxia",
+      "fatigue",
+      "peripheral edema",
+      "weight gain"
+    ],
+    "interactions": {
+      "drugs": [
+        "opioids (increased CNS/respiratory depression)",
+        "antacids (reduce absorption - separate by 2 hrs)",
+        "alcohol"
+      ],
+      "food": ["Horizant must be taken with food; Gralise with evening meal"],
+      "conditions": [
+        "renal impairment (dose reduction required)",
+        "respiratory depression risk"
+      ]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["capsule", "tablet", "extended-release tablet", "oral solution"]
+  },
+  {
+    "id": "levothyroxine",
+    "generic": "levothyroxine",
+    "brand": ["Synthroid", "Levoxyl", "Unithroid", "Tirosint"],
+    "class": "Thyroid Hormone",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hypothyroidism, thyroid-stimulating hormone suppression (thyroid cancer)",
+    "mechanism": "Synthetic T4 that is converted to active T3, regulating metabolism and growth",
+    "sideEffects": [
+      "tachycardia",
+      "palpitations",
+      "insomnia",
+      "weight loss",
+      "tremor",
+      "hair loss (early treatment)"
+    ],
+    "interactions": {
+      "drugs": [
+        "calcium/iron supplements (reduce absorption - separate by 4 hrs)",
+        "warfarin",
+        "antacids",
+        "cholestyramine"
+      ],
+      "food": [
+        "take on empty stomach 30-60 min before breakfast",
+        "soy, high-fiber foods reduce absorption"
+      ],
+      "conditions": [
+        "cardiovascular disease (use caution)",
+        "adrenal insufficiency (treat before starting)"
+      ]
+    },
+    "storage": "Store at room temperature, protect from light and moisture",
+    "forms": ["tablet", "capsule (Tirosint)", "injectable"]
+  },
+  {
+    "id": "atorvastatin-rosuvastatin",
+    "generic": "rosuvastatin",
+    "brand": ["Crestor", "Ezallor"],
+    "class": "HMG-CoA Reductase Inhibitor (Statin)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hyperlipidemia, mixed dyslipidemia, prevention of cardiovascular events",
+    "mechanism": "Inhibits HMG-CoA reductase, reducing cholesterol synthesis in the liver",
+    "sideEffects": [
+      "myopathy",
+      "rhabdomyolysis",
+      "elevated liver enzymes",
+      "proteinuria",
+      "headache"
+    ],
+    "interactions": {
+      "drugs": [
+        "cyclosporine",
+        "gemfibrozil",
+        "warfarin",
+        "antacids (reduce absorption)",
+        "niacin"
+      ],
+      "food": [
+        "avoid large quantities of grapefruit (minimal interaction vs. other statins)"
+      ],
+      "conditions": [
+        "active liver disease",
+        "pregnancy",
+        "Asian patients (lower starting dose)"
+      ]
+    },
+    "storage": "Store at room temperature, protect from moisture",
+    "forms": ["tablet", "sprinkle capsule"]
+  },
+  {
+    "id": "hydrocodone-acetaminophen",
+    "generic": "hydrocodone/acetaminophen",
+    "brand": ["Vicodin", "Norco", "Lortab"],
+    "class": "Opioid Analgesic Combination",
+    "controlled": true,
+    "schedule": "CII",
+    "indication": "Moderate to severe pain",
+    "mechanism": "Hydrocodone: binds mu-opioid receptors. Acetaminophen: inhibits prostaglandin synthesis centrally",
+    "sideEffects": [
+      "sedation",
+      "constipation",
+      "nausea",
+      "respiratory depression",
+      "physical dependence",
+      "hepatotoxicity (from APAP)"
+    ],
+    "interactions": {
+      "drugs": [
+        "other CNS depressants",
+        "MAOIs",
+        "benzodiazepines (Black Box Warning)",
+        "other acetaminophen-containing products"
+      ],
+      "food": ["alcohol (increases hepatotoxicity and CNS depression - avoid)"],
+      "conditions": [
+        "respiratory depression",
+        "hepatic impairment",
+        "addiction history",
+        "pregnancy (neonatal withdrawal)"
+      ]
+    },
+    "storage": "Store at room temperature in a secure location, dispose of unused medication properly",
+    "forms": ["tablet", "oral solution"]
+  },
+  {
+    "id": "simvastatin",
+    "generic": "simvastatin",
+    "brand": ["Zocor"],
+    "class": "HMG-CoA Reductase Inhibitor (Statin)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Hyperlipidemia, reduction of cardiovascular events",
+    "mechanism": "Inhibits HMG-CoA reductase, reducing cholesterol synthesis in the liver",
+    "sideEffects": [
+      "myopathy",
+      "rhabdomyolysis",
+      "elevated liver enzymes",
+      "GI upset"
+    ],
+    "interactions": {
+      "drugs": [
+        "amiodarone",
+        "amlodipine",
+        "ranolazine (limit simvastatin to 20mg)",
+        "strong CYP3A4 inhibitors (contraindicated)",
+        "gemfibrozil"
+      ],
+      "food": ["grapefruit juice (avoid - increases risk of myopathy)"],
+      "conditions": ["active liver disease", "pregnancy", "history of myopathy"]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet"]
+  },
+  {
+    "id": "warfarin",
+    "generic": "warfarin",
+    "brand": ["Coumadin", "Jantoven"],
+    "class": "Vitamin K Antagonist (Anticoagulant)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Atrial fibrillation, DVT/PE treatment and prevention, mechanical heart valves",
+    "mechanism": "Inhibits vitamin K epoxide reductase, blocking synthesis of clotting factors II, VII, IX, X",
+    "sideEffects": [
+      "bleeding",
+      "bruising",
+      "necrosis (rare)",
+      "purple toe syndrome (rare)"
+    ],
+    "interactions": {
+      "drugs": [
+        "many — NSAIDs, aspirin, antibiotics, amiodarone, fluoroquinolones, azole antifungals all increase INR"
+      ],
+      "food": [
+        "vitamin K-rich foods (spinach, kale, broccoli) decrease effect — keep intake consistent"
+      ],
+      "conditions": [
+        "bleeding disorders",
+        "falls risk",
+        "surgery (hold before procedures)",
+        "pregnancy (teratogenic - Category X)"
+      ]
+    },
+    "storage": "Store at room temperature, protect from light",
+    "forms": ["tablet"]
+  },
+  {
+    "id": "albuterol",
+    "generic": "albuterol",
+    "brand": ["ProAir HFA", "Ventolin HFA", "Proventil HFA", "AccuNeb"],
+    "class": "Short-Acting Beta-2 Agonist (SABA) / Bronchodilator",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Acute bronchospasm, asthma, COPD (rescue inhaler), exercise-induced bronchospasm",
+    "mechanism": "Selectively stimulates beta-2 adrenergic receptors in bronchial smooth muscle, causing bronchodilation",
+    "sideEffects": [
+      "tachycardia",
+      "tremor",
+      "hypokalemia",
+      "nervousness",
+      "headache",
+      "palpitations"
+    ],
+    "interactions": {
+      "drugs": [
+        "non-selective beta blockers (oppose bronchodilation)",
+        "digoxin (hypokalemia increases toxicity)",
+        "MAOIs",
+        "tricyclic antidepressants"
+      ],
+      "food": ["no significant food interactions"],
+      "conditions": [
+        "cardiovascular disease (use caution)",
+        "hypokalemia",
+        "hyperthyroidism"
+      ]
+    },
+    "storage": "Store at room temperature, avoid heat and open flame (pressurized canister)",
+    "forms": [
+      "metered-dose inhaler (MDI)",
+      "nebulizer solution",
+      "tablet",
+      "syrup"
+    ]
+  },
+  {
+    "id": "furosemide",
+    "generic": "furosemide",
+    "brand": ["Lasix"],
+    "class": "Loop Diuretic",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Edema (heart failure, renal disease, hepatic cirrhosis), hypertension, acute pulmonary edema",
+    "mechanism": "Inhibits Na-K-2Cl cotransporter in the thick ascending loop of Henle",
+    "sideEffects": [
+      "hypokalemia",
+      "hyponatremia",
+      "dehydration",
+      "ototoxicity (high IV doses)",
+      "hyperuricemia",
+      "hypotension"
+    ],
+    "interactions": {
+      "drugs": [
+        "aminoglycosides (ototoxicity risk)",
+        "digoxin (hypokalemia increases toxicity)",
+        "lithium",
+        "NSAIDs (reduce efficacy)",
+        "antihypertensives"
+      ],
+      "food": ["take with food to reduce GI upset"],
+      "conditions": [
+        "sulfa allergy (caution)",
+        "gout",
+        "diabetes",
+        "electrolyte imbalances"
+      ]
+    },
+    "storage": "Store at room temperature, protect from light (may discolor but potency unaffected)",
+    "forms": ["tablet", "oral solution", "injectable"]
+  },
+  {
+    "id": "clopidogrel",
+    "generic": "clopidogrel",
+    "brand": ["Plavix"],
+    "class": "P2Y12 ADP Receptor Antagonist (Antiplatelet)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "Acute coronary syndrome, recent MI or stroke, peripheral arterial disease",
+    "mechanism": "Irreversibly inhibits P2Y12 ADP receptors on platelets, reducing platelet aggregation",
+    "sideEffects": ["bleeding", "bruising", "TTP (rare)", "GI upset", "rash"],
+    "interactions": {
+      "drugs": [
+        "PPIs (especially omeprazole — reduces efficacy)",
+        "aspirin (combined use increases bleed risk)",
+        "NSAIDs",
+        "anticoagulants"
+      ],
+      "food": ["no significant food interactions"],
+      "conditions": [
+        "active bleeding",
+        "surgery (hold 5-7 days before)",
+        "CYP2C19 poor metabolizers (reduced efficacy)"
+      ]
+    },
+    "storage": "Store at room temperature",
+    "forms": ["tablet"]
+  },
+  {
+    "id": "pantoprazole",
+    "generic": "pantoprazole",
+    "brand": ["Protonix"],
+    "class": "Proton Pump Inhibitor (PPI)",
+    "controlled": false,
+    "schedule": null,
+    "indication": "GERD, erosive esophagitis, Zollinger-Ellison syndrome, H. pylori (in combination)",
+    "mechanism": "Irreversibly inhibits H+/K+ ATPase (proton pump) in gastric parietal cells",
+    "sideEffects": [
+      "headache",
+      "diarrhea",
+      "nausea",
+      "hypomagnesemia (long-term)",
+      "C. diff risk",
+      "bone fracture risk"
+    ],
+    "interactions": {
+      "drugs": [
+        "methotrexate",
+        "warfarin",
+        "atazanavir (do not use together)",
+        "clopidogrel (less interaction than omeprazole)"
+      ],
+      "food": ["take 30-60 min before meals"],
+      "conditions": [
+        "long-term use risks: fracture, C. diff, hypomagnesemia, B12 deficiency"
+      ]
+    },
+    "storage": "Store at room temperature",
+    "forms": [
+      "delayed-release tablet",
+      "delayed-release granules",
+      "injectable"
+    ]
+  }
+]
